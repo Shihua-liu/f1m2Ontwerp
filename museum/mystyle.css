@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(53, 53, 53);
+  }
+  
+  h1 {
+    color: white;
+    margin-left: 20px;
+  }
+
+  .white {
+    color: white
+  }
