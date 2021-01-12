@@ -3,6 +3,29 @@
 <head>
     <link rel="stylesheet" href="mystyle.css">  
     <title>Kijk-Kubus</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        main{
+            display: flex;
+            flex: 3 0 auto;
+            padding: 0 1%;
+        }
+        section{
+            flex: 1 0 13%;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 0 1%;
+        }
+        h1, footer{
+            flex: 1 0;
+            display: flex;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -11,31 +34,44 @@
         <a href="inline-block.html">inline-block</a>
         <a href="flexbox.html">flexbox</a>
     </nav><br>
-    <div class="white">
-    <h1>kijk-kubus - flexbox</h1>
-    <main>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-    <h3>kenmerken van de Kijk-Kubus</h3>
-    <ol>
-        <li>je ziet kubussen dat schuin is als dak</li><br>
-        <li>het zijn woningen</li><br>
-        <li>in het begin en het einde staan 2 grote kubussen</li><br>
-    </ol>
-    <h1>beschrijving</h1>
-    <p>de kijk-kubussen is al meer dan 30 jaren een kijk fenomeen. je kan je zelf af vragen of er mensen zijn die er in wonen. Wilt u zelf de kijk-kubussen bekijken? ze zijn elke dag open van 11.00 tot 17.00</p>
+        <div id="head">
+            <h1>kijk-kubus - flexbox</h1>
+        </div>
+        
+        <main>
+            <section>
+                <h3>kenmerken van de Kijk-Kubus</h3>
+                <ol>
+                    <li>je ziet kubussen dat schuin is als dak</li><br>
+                    <li>het zijn woningen</li><br>
+                    <li>in het begin en het einde staan 2 grote kubussen</li><br>
+                </ol>
+            </section>
+            <section>
+                <h1>beschrijving</h1>
+                <p>de kijk-kubussen is al meer dan 30 jaren een kijk fenomeen.<br> je kan je zelf af vragen of er mensen zijn die er in wonen.<br> Wilt u zelf de kijk-kubussen bekijken? ze zijn elke dag open van 11.00 tot 17.00</p> 
+            </section>
+            <section>
+                <a href="https://www.kubuswoning.nl">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Rotterdam_Kijk-Kubus_01.jpg" alt="kijk-kubus Rotterdam" width="350" >
+                </a>
+            </section>
+            <section>
+                <p>
+                    Overblaak 70<br>
+                    3011 MH Rotterdam<br>
+                    Tel: 010-4142285<br>
+                    E-mail: info@kubuswoning.nl<br>
+                    <h3><a href="https://www.kubuswoning.nl">link naar de museum/woning</a></h3><br>
+                </p>              
+            </section>
+        </main>
     </div>
-    <a href="https://www.kubuswoning.nl">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Rotterdam_Kijk-Kubus_01.jpg" alt="kijk-kubus Rotterdam" width="500" ></a>
-    <div class="white"><p>
-        Overblaak 70<br>
-        3011 MH Rotterdam<br>
-        Tel: 010-4142285<br>
-        E-mail: info@kubuswoning.nl<br>
-        <h3><a href="https://www.kubuswoning.nl">link naar de museum/woning</a></h3><br>
-    </p>
-    </div>    
+    <footer>
+        <p>
+            oefening F1M2 ONT<br>
+            Shi Hua Liu
+        </p>
+    </footer>
 </body>
 </html>

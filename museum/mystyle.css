@@ -1,4 +1,8 @@
-html, body { margin: 0; padding: 0; }
+html, body {
+  margin: 0;
+  padding: 0; 
+  color: white;
+  }
 
 body {
     background-color: rgb(53, 53, 53);
@@ -31,6 +35,13 @@ body {
     margin-left: 20px;
   }
 
-  .white {
-    color: white
+
+  footer{
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+  }
+
+  #head{
+    background-color: rgb(95, 93, 93);
   }
