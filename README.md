@@ -1,4 +1,4 @@
-welkom bij mijn repository voor html code
+welkom bij mijn repository voor html code:
 
 link naar mijn website van de landingpage: http://31684.hosts1.ma-cloud.nl/f1m2Ontwerp/landingpage.html
 
